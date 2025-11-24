@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--light-color);
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: unset;
+}
+/* ********************************** */
+/* COLOR Codes */
+/* ********************************** */
+:root {
+  --gray-color: #1a222d;
+  --red-color: #ee2737;
+  --light-color: #edeff3;
+  --dark-blue: #012480;
+  --light-blue: #42e3ff;
+}
+/* ************************************ */
+/* General CSS */
+/* ************************************ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+}
+/* ************************************ */
+/* HEADER CSS */
+/* ************************************ */
+header {
+  border-bottom: 1px solid #1a222d;
+  padding: 25px 0px;
+}
+.bg-img {
+  height: 86.3vh;
+  width: 100%;
+  background-image: url(images/Rectangle\ 835.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-flex {
+  padding: 0px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.nav-items {
+  color: var(--light-color);
+}
+.nav-btn {
+  background-color: var(--red-color);
+  color: var(--light-color);
+  padding: 14px 38px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+.hero-content {
+  margin: 100px auto;
+  align-items: center;
+  gap: 20px;
+}
+.hero-title {
+  max-width: 550px;
+  font-size: 42px;
+}
+.hero-text {
+  max-width: 700px;
+  font-size: 20px;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+.hero-btn {
+  color: var(--light-color);
+  background-color: var(--red-color);
+  padding: 15px 30px;
+  border-radius: 6px;
+}
