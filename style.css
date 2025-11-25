@@ -190,3 +190,39 @@ span {
 .about-btn {
   background-color: var(--gray-color);
 }
+/* ************************************ */
+/* DESIGN CSS */
+/* ************************************ */
+.design {
+  background-color: var(--gray-color);
+  color: var(--light-color);
+  padding: 104px 0px;
+  position: relative;
+}
+.design-dots {
+  max-width: 130px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  right: 0%;
+  opacity: 0.5;
+}
+.design-flex {
+  align-items: center;
+  justify-content: space-between;
+}
+.design-line {
+  padding-bottom: 20px;
+}
+.design-heading {
+  max-width: 290px;
+}
+.design-content {
+  max-width: 415px;
+}
+/* ************************************ */
+/* WORK CSS */
+/* ************************************ */
+.work {
+  padding: 100px 0px;
+}
