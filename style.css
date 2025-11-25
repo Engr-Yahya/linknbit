@@ -257,3 +257,67 @@ header {
 .work-btn {
   margin-top: 50px;
 }
+/* ************************************ */
+/* TESTIMONIALS CSS */
+/* ************************************ */
+.testimonials {
+  padding: 120px 0px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.testimonials-heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+.testimonials-title {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.testimonials-grid {
+  padding-top: 123px;
+}
+.testimonials-card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 33px 50px;
+  text-align: left;
+  position: relative;
+}
+.test-img {
+  position: absolute;
+  top: -20%;
+  left: 5%;
+}
+.test-img-play {
+  position: absolute;
+  top: 10%;
+  left: 23%;
+}
+.test-flex {
+  display: flex;
+  gap: 150px;
+}
+.test-sub-heading {
+  font-size: 14px;
+  font-weight: bold;
+}
+.test-title {
+  color: var(--red-color);
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.test-content {
+  color: var(--gray-color);
+  font-size: 15px;
+  padding-top: 10px;
+}
+.test-content-img {
+  padding-top: 20px;
+}
+.left-right-btn {
+  padding-top: 74px;
+}
+.left-btn {
+  padding-right: 30px;
+}
