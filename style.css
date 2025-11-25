@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: var(--light-color);
+  /* color: #cacbcc; */
 }
 img {
   max-width: 100%;
@@ -33,20 +34,21 @@ a {
 .flex-container {
   display: flex;
 }
+.grid {
+  display: grid;
+}
+.grid--2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-gap {
+  gap: 20px;
+}
 /* ************************************ */
 /* HEADER CSS */
 /* ************************************ */
 header {
   border-bottom: 1px solid #1a222d;
   padding: 25px 0px;
-}
-.bg-img {
-  height: 86.3vh;
-  width: 100%;
-  background-image: url(images/Rectangle\ 835.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .header-flex {
   padding: 0px 40px;
@@ -69,8 +71,19 @@ header {
   border-radius: 6px;
   font-weight: 500;
 }
+.hero {
+  height: 822px;
+  width: 100%;
+  background-image: url(images/Rectangle\ 835.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin-top: -95px;
+}
 .hero-content {
-  margin: 100px auto;
+  margin: 0 auto;
   align-items: center;
   gap: 20px;
 }
@@ -89,4 +102,48 @@ header {
   background-color: var(--red-color);
   padding: 15px 30px;
   border-radius: 6px;
+}
+.services {
+  padding: 48px 15px;
+  text-align: center;
+}
+.service-title {
+  color: var(--gray-color);
+  font-size: 36px;
+}
+.service-span {
+  color: var(--red-color);
+  font-weight: 800;
+}
+.service-text {
+  margin: 0 auto;
+  max-width: 900px;
+  color: var(--gray-color);
+  font-size: 18px;
+}
+.service-grid {
+  margin: 40px auto auto auto;
+  max-width: 1038px;
+}
+.service-card,
+.service-card-1 {
+  max-width: 507px;
+  background-color: #f8f8f8;
+  color: var(--gray-color);
+  padding: 49px 45px 63px;
+  border-radius: 8px;
+  text-align: left;
+  border: 1px solid #cacbcc;
+}
+.service-card-1 {
+  background-color: var(--gray-color);
+  color: var(--light-color);
+  border: none;
+}
+.service-card-heading {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.service-btn {
 }
