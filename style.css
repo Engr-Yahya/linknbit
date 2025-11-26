@@ -404,3 +404,15 @@ select {
 .contact-right-num {
   font-size: 20px;
 }
+.footer {
+  padding: 75px;
+}
+.footer-flex {
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+}
+.logos {
+  display: flex;
+  gap: 20px;
+}
