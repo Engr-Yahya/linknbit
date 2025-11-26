@@ -405,7 +405,7 @@ select {
   font-size: 20px;
 }
 .footer {
-  padding: 75px;
+  padding-top: 75px;
 }
 .footer-flex {
   align-items: center;
@@ -415,4 +415,7 @@ select {
 .logos {
   display: flex;
   gap: 20px;
+}
+.copy-right-sec-2 {
+  padding: 20px 0px;
 }
