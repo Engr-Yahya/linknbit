@@ -262,9 +262,80 @@
       </div>
     </section>
     <section class="contact">
-
+      <div class="container">
+        <div class="contact-flex flex-container">
+          <div class="contact-left-sec">
+            <p class="form-title">
+              120 COMPANIES REQUESTED A PROPOSAL LAST MONTH
+            </p>
+            <h2 class="contact-form-heading">
+              Schedule a <span>Free Consultation</span>
+            </h2>
+            <p class="contact-form-content">
+              Have a project in mind but don’t know where to start? Use the form below to book a free consultation.
+            </p>
+            <form class="form">
+              <div class="grid grid--2cols">
+                <div>
+                  <label for="fname">Fullname</label>
+                  <input type="text" id="fname" placeholder="Enter your name">
+                </div>
+                <div>
+                  <label for="email">Eamil</label>
+                  <input type="text" id="email" placeholder="Enter your email">
+                </div>
+                <div>
+                  <label for="pnumber">Phone Number</label>
+                  <input type="text" id="pnumber" placeholder="Enter your phone number">
+                </div>
+                <div>
+                  <label for="org">Organization/Company</label>
+                  <input type="text" id="org" placeholder="ex organization">
+                </div>
+              </div>
+              <label for="customer-help">How we can help you</label>
+              <select id="customer-help">
+                <option value="help">Here’s How We Can Help You</option>
+                <option value="offer"> What We Offer</option>
+                <option value="services"> Our Services</option>
+                <option value="support"> Ways We Support You</option>
+              </select>
+              <label for="additional-info">Additional Information</label>
+              <textarea id="additional-info" rows="8"></textarea>
+              <a href="#" class="form-btn btn">Request Free Consultation</a>
+            </form>
+          </div>
+          <div class="contact-right-sec">
+            <div>
+              <h2 class="contact-right-heading">Project Discussion</h2>
+              <p class="contact-right-info">contact@linknbit.com</p>
+              <p class="contact-right-num">+92 316 975 6164</p>
+            </div>
+            <div>
+              <h2 class="contact-right-heading">General Inquiries</h2>
+              <p class="contact-right-info">info@linknbit.com</p>
+              <p class="contact-right-num">+92 316 5050 702</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
+  <footer>
+
+  </footer>
 </body>
+<script>
+  const leftButton = document.querySelector(".left-btn");
+  leftButton.addEventListener("click", () => {
+    alert("you clicked the left button !")
+  });
+
+
+  const rightButton = document.querySelector(".right-btn");
+  rightButton.addEventListener("click", () => {
+    alert("you clicked the right button !")
+  });
+</script>
 
 </html>

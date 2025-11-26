@@ -14,6 +14,10 @@ a {
   display: inline-block;
   text-decoration: unset;
 }
+input,
+select {
+  font-family: "Poppins", sans-serif;
+}
 /* ********************************** */
 /* COLOR Codes */
 /* ********************************** */
@@ -320,4 +324,83 @@ header {
 }
 .left-btn {
   padding-right: 30px;
+}
+/* ************************************ */
+/* CONTACT CSS */
+/* ************************************ */
+.contact {
+  padding: 120px 0px;
+  background-color: var(--gray-color);
+  background-image: url(images/contact/Rectangle\ 704.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.contact-flex {
+  align-items: center;
+  gap: 90px;
+}
+.contact-left-sec {
+  max-width: 720px;
+  background-color: #fff;
+  padding: 55px 52px;
+}
+.form-title {
+  max-width: 484px;
+  background-color: #45a17f63;
+  font-size: 15px;
+  padding: 14px 45px;
+  border-radius: 5px;
+}
+.contact-form-heading {
+  padding-top: 28px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.contact-form-content {
+  padding-bottom: 26px;
+}
+label {
+  display: block;
+}
+input {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+select {
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#additional-info {
+  max-width: 650px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form-btn {
+  text-align: center;
+  background-color: var(--gray-color);
+  width: 100%;
+}
+.contact-right-sec {
+  color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.contact-right-heading {
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.contact-right-info {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.contact-right-num {
+  font-size: 20px;
 }
